@@ -1,9 +1,7 @@
 <template>
-  <div class="max-w-sm flex items-center space-x-3">
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
+  <div class="font-poppins">
+    <router-view></router-view>
   </div>
-  <router-view></router-view>
 </template>
 
 <script lang="ts">
@@ -13,3 +11,6 @@ export default defineComponent({
   name: "App",
 });
 </script>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+</style>
