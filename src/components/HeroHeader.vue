@@ -18,9 +18,9 @@
           Properties in the area:
           <span class="font-bold text-gray-800">New York</span>
         </p>
-        <div class="grid grid-cols-2 gap-2 mt-4">
+        <div class="grid grid-cols-2 gap-2 mt-8">
           <button
-            class="py-2 px-3 text-gray-700 hover:bg-gray-50 transition font-semibold rounded inline-flex items-center space-x-2 bg-white border"
+            class="py-1 px-3 text-gray-600 hover:bg-gray-50 transition font-semibold rounded inline-flex items-center space-x-2 bg-white border"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@
             <span>Property Type</span>
           </button>
           <button
-            class="py-2 px-3 text-gray-700 hover:bg-gray-50 transition font-semibold rounded inline-flex items-center space-x-2 bg-white border"
+            class="py-1 px-3 text-gray-600 hover:bg-gray-50 transition font-semibold rounded inline-flex items-center space-x-2 bg-white border"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@
             <span>Price Estate</span>
           </button>
           <button
-            class="py-2 px-3 text-gray-700 hover:bg-gray-50 transition font-semibold rounded inline-flex items-center space-x-2 bg-white border"
+            class="py-1 px-3 text-gray-600 hover:bg-gray-50 transition font-semibold rounded inline-flex items-center space-x-2 bg-white border"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@
             <span>Square Footage</span>
           </button>
           <button
-            class="py-2 px-3 text-gray-700 hover:bg-gray-50 transition font-semibold rounded inline-flex items-center space-x-2 bg-white border"
+            class="py-1 px-3 text-gray-600 hover:bg-gray-50 transition font-semibold rounded inline-flex items-center space-x-2 bg-white border"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +96,7 @@
             <span>Year Built</span>
           </button>
           <button
-            class="py-2 px-3 text-gray-400 font-semibold rounded inline-flex items-center space-x-2 bg-gray-50 border"
+            class="py-1 px-3 text-gray-400 font-semibold rounded inline-flex items-center space-x-2 bg-gray-50 border"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -115,13 +115,13 @@
             <span>Other Filter</span>
           </button>
         </div>
-        <div class="grid grid-cols-2 gap-2 mt-4">
+        <div class="grid grid-cols-2 gap-2 mt-8">
           <button
-            class="py-2 px-3 text-white font-semibold rounded bg-gradient-to-r from-purple-600 to-purple-500 border"
+            class="py-1 px-3 text-white font-semibold rounded bg-gradient-to-r from-purple-600 to-purple-500 border"
           >
-            <span>Other Filter</span>
+            <span>Apply</span>
           </button>
-          <button class="py-2 px-3 text-gray-400 font-semibold rounded border">
+          <button class="py-1 px-3 text-gray-400 font-semibold rounded border">
             <span>Clear</span>
           </button>
         </div>
@@ -186,7 +186,7 @@
       </div>
     </div>
     <div
-      class="z-10 absolute right-10 bottom-8 rounded-md shadow-md text-gray-500 bg-white flex flex-col"
+      class="z-10 absolute right-10 bottom-8 rounded shadow-md text-gray-500 bg-white flex flex-col"
     >
       <button class="p-1 rounded-t-md">
         <svg
