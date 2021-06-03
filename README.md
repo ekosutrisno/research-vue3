@@ -1,6 +1,10 @@
-# Vue 3 + Typescript + Vite
+# Hotels Frontend App
+
+CR: [@eko_sutrisno](https://github.com/ekosutrisno)
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/22b30760-0032-44ce-886c-d5383677a2b0/deploy-status)](https://app.netlify.com/sites/dev-hotels/deploys)
 
 ## Recommended IDE Setup
 
