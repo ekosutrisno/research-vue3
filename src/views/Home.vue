@@ -8,7 +8,7 @@
   <!-- End Hero -->
 
   <!-- Card Session -->
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-10">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 lg:p-10">
     <DetailInfoCard
       v-for="hotel in dataProperties"
       :key="hotel.id"

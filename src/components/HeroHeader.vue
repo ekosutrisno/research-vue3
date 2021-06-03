@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-gradient-to-b relative h-full py-8 from-purple-300 to-purple-900 flex items-center justify-between"
+    class="bg-gradient-to-b hidden relative h-full py-8 from-purple-300 to-purple-900 lg:flex items-center justify-between"
   >
     <img
       class="absolute inset-0 z-0 opacity-95 object-cover h-full w-full"

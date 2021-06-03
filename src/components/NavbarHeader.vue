@@ -1,12 +1,12 @@
 <template>
   <!-- Header -->
-  <nav class="w-full bg-white shadow-lg p-4 sticky top-0 z-20">
+  <nav class="w-full bg-white shadow-sm border-b p-4 sticky top-0 z-20">
     <div class="flex items-center justify-between max-w-screen-xl mx-auto">
       <div class="flex items-center space-x-4">
         <div class="text-2xl font-semibold text-purple-600">
           Exo<span class="text-purple-400">Property</span>
         </div>
-        <div class="relative">
+        <div class="relative hidden lg:block">
           <input
             type="text"
             placeholder="Location..."
@@ -46,7 +46,7 @@
             />
           </svg>
         </div>
-        <div class="inline-flex items-center space-x-2">
+        <div class="lg:inline-flex hidden items-center space-x-2">
           <button
             @click="setOptionValue('Buy')"
             class="py-2 px-3 font-medium rounded text-gray-400 hover:bg-gray-100"
@@ -74,7 +74,7 @@
         </div>
       </div>
       <div class="inline-flex items-centere space-x-3">
-        <button class="font-semibold focus:outline-none">
+        <button class="font-semibold focus:outline-none hidden lg:block">
           Rent Real Estate
         </button>
         <button

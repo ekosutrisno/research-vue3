@@ -2,14 +2,13 @@
   <div
     class="flex items-center flex-col shadow overflow-hidden rounded-tl-3xl rounded-md bg-white hover:shadow-xl"
   >
-    <div class="max-h-56 h-full relative">
+    <div class="max-h-56 h-full w-full relative">
       <img
         class="object-cover h-full w-full"
         :src="hotel.imageUrl"
         alt="image-1"
       />
       <div
-        @click="hotel.isLike = !hotel.isLike"
         class="bg-gray-800 cursor-pointer absolute w-9 h-9 top-3 bg-opacity-50 text-white left-4 inline-flex items-center justify-center rounded-full"
       >
         <svg
