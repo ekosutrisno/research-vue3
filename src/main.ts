@@ -5,6 +5,7 @@ import App from './App.vue';
 import './index.css';
 import './assets/tooltip.css';
 
+import store from './store';
 import router from './router';
 import directives from './directives';
 
@@ -23,4 +24,5 @@ const updateSW = registerSW({
 })
 
 app.use(router)
+   .use(store)
    .mount('#app')
