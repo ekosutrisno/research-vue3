@@ -8,6 +8,7 @@ import './assets/tooltip.css';
 import store from './store';
 import router from './router';
 import directives from './directives';
+import VueEasyLightbox from 'vue-easy-lightbox'
 
 const app = createApp(App);
 
@@ -25,4 +26,5 @@ const updateSW = registerSW({
 
 app.use(router)
    .use(store)
-   .mount('#app')
+   .use(VueEasyLightbox)
+   .mount('#app');

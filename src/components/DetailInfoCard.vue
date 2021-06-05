@@ -58,7 +58,7 @@
             Entire house in Brooklyn, {{ hotel.propertyBuildingAddress }}
           </p>
         </div>
-        <div class="text-gray-400">
+        <div class="text-gray-400 font-semibold" v-tooltip:left.tooltip="'Status'">
           {{ hotel.status ? "rent" : "available" }}
         </div>
       </div>

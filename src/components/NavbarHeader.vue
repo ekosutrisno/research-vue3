@@ -74,9 +74,9 @@
         </div>
       </div>
       <div class="inline-flex items-centere space-x-3">
-        <button class="font-semibold focus:outline-none hidden lg:block">
+        <router-link to="/lightbox" class="font-semibold focus:outline-none hidden lg:block">
           Rent Real Estate
-        </button>
+        </router-link>
         <button
           class="py-2 px-3 font-medium rounded inline-flex items-center space-x-4 bg-gray-50 border"
         >
