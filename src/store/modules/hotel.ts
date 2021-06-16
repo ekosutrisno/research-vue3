@@ -1,4 +1,5 @@
 import { Module } from "vuex";
+import { State } from "..";
 import { EstateProperty } from "../../types/InterfaceType";
 
 
@@ -7,7 +8,7 @@ interface StoreHotel {
    isLoading: boolean,
 }
 
-const store: Module<StoreHotel, unknown> = {
+const store: Module<StoreHotel, State> = {
    namespaced: true,
    state() {
       return {

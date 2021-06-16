@@ -1,4 +1,4 @@
-const tooltipDirective = (app: { directive: (arg0: string, arg1: { mounted(el: any, binding: any): void; updated(el: any, binding: any): void; }) => void; }) => {
+const tooltipDirective = (app: any) => {
    app.directive("tooltip", {
       mounted(el: any, binding: any) {
          init(el, binding);
@@ -9,7 +9,7 @@ const tooltipDirective = (app: { directive: (arg0: string, arg1: { mounted(el: a
    });
 };
 
-function init(el: { setAttribute: (arg0: string, arg1: any) => void; }, binding: { arg: string; value: string; }) {
+function init(el: any, binding: any) {
    let position = binding.arg || "top";
    let tooltipText = binding.value || "Tooltip text";
    el.setAttribute("position", position);
